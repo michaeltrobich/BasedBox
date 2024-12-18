@@ -1,0 +1,2195 @@
+[gd_scene load_steps=87 format=3 uid="uid://r3gptbjqk53v"]
+
+[ext_resource type="Texture2D" uid="uid://cmss8qxnybqsd" path="res://Sprites/squirtle.png" id="1_4kgog"]
+[ext_resource type="Script" path="res://Tracker.gd" id="1_iraom"]
+[ext_resource type="Texture2D" uid="uid://kxic2rpji21a" path="res://Sprites/caterpie.png" id="2_ot706"]
+[ext_resource type="Texture2D" uid="uid://7ru363mhuj1c" path="res://Sprites/weedle.png" id="3_nxgqa"]
+[ext_resource type="Texture2D" uid="uid://ch4no0og2gsk4" path="res://Sprites/wartortle.png" id="3_rier6"]
+[ext_resource type="Texture2D" uid="uid://dpe1owfse8sen" path="res://Sprites/pidgey.png" id="4_64o7q"]
+[ext_resource type="Texture2D" uid="uid://bybm88lxmxudw" path="res://Sprites/metapod.png" id="4_okxf1"]
+[ext_resource type="Texture2D" uid="uid://de5wq47is3ysv" path="res://Sprites/blastoise.png" id="5_r60ue"]
+[ext_resource type="Texture2D" uid="uid://fhdiqogivmjw" path="res://Sprites/rattata.png" id="5_sj2x7"]
+[ext_resource type="Texture2D" uid="uid://cwlshm5q3ctpv" path="res://Sprites/fearow.png" id="6_660et"]
+[ext_resource type="Texture2D" uid="uid://dee2eft14h5kk" path="res://Sprites/kakuna.png" id="7_780uf"]
+[ext_resource type="Texture2D" uid="uid://cpf3ccajltj6b" path="res://Sprites/pikachu.png" id="7_t66e6"]
+[ext_resource type="Texture2D" uid="uid://c2alcq0qcgjq5" path="res://Sprites/nidof.png" id="8_fm4u4"]
+[ext_resource type="Texture2D" uid="uid://bnj04bw78o4be" path="res://Sprites/pidgeotto.png" id="8_wahe5"]
+[ext_resource type="Texture2D" uid="uid://8rhyg7rmnjrk" path="res://Sprites/nidom.png" id="9_dxu25"]
+[ext_resource type="Texture2D" uid="uid://cdt54uwtfanch" path="res://Sprites/clefairy.png" id="10_2fpto"]
+[ext_resource type="Texture2D" uid="uid://bc1qqqvqmmmhg" path="res://Sprites/butterfree.png" id="10_vlrhg"]
+[ext_resource type="Texture2D" uid="uid://haeslckvurul" path="res://Sprites/wigglytuff.png" id="11_5m3ki"]
+[ext_resource type="Texture2D" uid="uid://4prei3ery1wn" path="res://Sprites/beedrill.png" id="11_gj0ah"]
+[ext_resource type="Texture2D" uid="uid://cqax1hul1r3id" path="res://Sprites/raticate.png" id="11_pd26h"]
+[ext_resource type="Texture2D" uid="uid://b3wt6dr53b33u" path="res://Sprites/pidgeot.png" id="12_jxwps"]
+[ext_resource type="Texture2D" uid="uid://c71ewllsee7x0" path="res://Sprites/ekans.png" id="12_ynhd6"]
+[ext_resource type="Texture2D" uid="uid://cm2kq5hdthhew" path="res://Sprites/spearow.png" id="17_4kjm6"]
+[ext_resource type="Texture2D" uid="uid://0hafpo6eykis" path="res://Sprites/arbok.png" id="18_2rouw"]
+[ext_resource type="Texture2D" uid="uid://cyagqw3iw2bob" path="res://Sprites/raichu.png" id="18_37vua"]
+[ext_resource type="Texture2D" uid="uid://by814wtla2sys" path="res://Sprites/nidorina.png" id="19_528g0"]
+[ext_resource type="Texture2D" uid="uid://c01b2wllau2fr" path="res://Sprites/nidorino.png" id="20_r7l1p"]
+[ext_resource type="Texture2D" uid="uid://dv316w5qy03m" path="res://Sprites/clefable.png" id="21_5ej6l"]
+[ext_resource type="Texture2D" uid="uid://bevogkytrqmn0" path="res://Sprites/zubat.png" id="22_3jeg7"]
+[ext_resource type="Texture2D" uid="uid://yu2xbcdqh0bo" path="res://Sprites/diglett.png" id="29_wk446"]
+[ext_resource type="Texture2D" uid="uid://dbt7qv6d8un8v" path="res://Sprites/nidoqueen.png" id="30_kd028"]
+[ext_resource type="Texture2D" uid="uid://d16ekpt3x1m52" path="res://Sprites/nidoking.png" id="31_cnxrs"]
+[ext_resource type="Texture2D" uid="uid://but5lkf3dmdxn" path="res://Sprites/jigglypuff.png" id="32_e5pvm"]
+[ext_resource type="Texture2D" uid="uid://b8xcbs6b1unt1" path="res://Sprites/golbat.png" id="33_5hho7"]
+[ext_resource type="Texture2D" uid="uid://dtc1msw812gqk" path="res://Sprites/oddish.png" id="33_8j72s"]
+[ext_resource type="Texture2D" uid="uid://ir2fkhsdrmcp" path="res://Sprites/gloom.png" id="34_qklhg"]
+[ext_resource type="Texture2D" uid="uid://baoe5jqhutgqd" path="res://Sprites/vileplume.png" id="35_rcktj"]
+[ext_resource type="Texture2D" uid="uid://8dl5plen7dsh" path="res://Sprites/paras.png" id="36_r7a06"]
+[ext_resource type="Texture2D" uid="uid://cchvo60shfdub" path="res://Sprites/parasect.png" id="37_o8bmr"]
+[ext_resource type="Texture2D" uid="uid://dr6j80pgi7q8h" path="res://Sprites/venonat.png" id="38_t5sp6"]
+[ext_resource type="Texture2D" uid="uid://c0pgamlc6hgby" path="res://Sprites/venomoth.png" id="39_2bp2v"]
+[ext_resource type="Texture2D" uid="uid://cgest0ft51btf" path="res://Sprites/meowth.png" id="41_kpo6v"]
+[ext_resource type="Texture2D" uid="uid://b2pfymyx8a2hs" path="res://Sprites/persian.png" id="42_wkhg5"]
+[ext_resource type="Texture2D" uid="uid://cmom7forat0gk" path="res://Sprites/psyduck.png" id="43_h8l2e"]
+[ext_resource type="Texture2D" uid="uid://752ti3tq2hrp" path="res://Sprites/golduck.png" id="44_tcu7p"]
+[ext_resource type="Texture2D" uid="uid://odl0q4v7qos6" path="res://Sprites/mankey.png" id="45_f6sqw"]
+[ext_resource type="Texture2D" uid="uid://cyiim8gmpge2o" path="res://Sprites/primeape.png" id="46_tj0e0"]
+[ext_resource type="Texture2D" uid="uid://bkg432nrs7dya" path="res://Sprites/growlithe.png" id="47_y3ukw"]
+[ext_resource type="Texture2D" uid="uid://bopiynx8h1fql" path="res://Sprites/arcanine.png" id="48_j0t2o"]
+[ext_resource type="Texture2D" uid="uid://inbla40c52lj" path="res://Sprites/abra.png" id="49_qkqf3"]
+[ext_resource type="Texture2D" uid="uid://bb508s0x42aiy" path="res://Sprites/machop.png" id="50_oso2k"]
+[ext_resource type="Texture2D" uid="uid://baue312rycvyg" path="res://Sprites/machoke.png" id="51_1g6x2"]
+[ext_resource type="Texture2D" uid="uid://delomx7nnoq8" path="res://Sprites/tentacool.png" id="52_yum1v"]
+[ext_resource type="Texture2D" uid="uid://df33p0dpocg2h" path="res://Sprites/tentacruel.png" id="53_206s3"]
+[ext_resource type="Texture2D" uid="uid://divj2s4o1c805" path="res://Sprites/geodude.png" id="54_3uw1s"]
+[ext_resource type="Texture2D" uid="uid://bnq78ueovil72" path="res://Sprites/graveler.png" id="55_b8lgv"]
+[ext_resource type="Texture2D" uid="uid://b46vjrfftbk33" path="res://Sprites/ponyta.png" id="56_874ct"]
+[ext_resource type="Texture2D" uid="uid://c0y205t137vc" path="res://Sprites/rapidash.png" id="57_v3s73"]
+[ext_resource type="Texture2D" uid="uid://dwm2lyr8wdrym" path="res://Sprites/magnemite.png" id="58_0toif"]
+[ext_resource type="Texture2D" uid="uid://b2kcgaplfxrfl" path="res://Sprites/farfetchd.png" id="59_ggnod"]
+[ext_resource type="Texture2D" uid="uid://barr18xpg05gp" path="res://Sprites/doduo.png" id="60_4osg2"]
+[ext_resource type="Texture2D" uid="uid://g53f30y518i3" path="res://Sprites/seel.png" id="61_rbjs3"]
+[ext_resource type="Texture2D" uid="uid://c2yp0ciqc8sn6" path="res://Sprites/dewgong.png" id="62_tgfw6"]
+[ext_resource type="Texture2D" uid="uid://vxnrovbq5fvx" path="res://Sprites/grimer.png" id="63_lyhrl"]
+[ext_resource type="Texture2D" uid="uid://bipexmu04pfiv" path="res://Sprites/gastly.png" id="64_4hfsy"]
+[ext_resource type="Texture2D" uid="uid://bvber2juk0gfg" path="res://Sprites/onix.png" id="65_5r1s4"]
+[ext_resource type="Texture2D" uid="uid://b3wltuyyumuel" path="res://Sprites/drowzee.png" id="66_31sgd"]
+[ext_resource type="Texture2D" uid="uid://v1bc66hyrpkp" path="res://Sprites/hypno.png" id="67_semci"]
+[ext_resource type="Texture2D" uid="uid://xisw763crpbo" path="res://Sprites/voltorb.png" id="68_opwa2"]
+[ext_resource type="Texture2D" uid="uid://8b7whlo6jj47" path="res://Sprites/electrode.png" id="69_qvyv4"]
+[ext_resource type="Texture2D" uid="uid://bfj0p0e5ctyey" path="res://Sprites/exeggcute.png" id="70_hfmq0"]
+[ext_resource type="Texture2D" uid="uid://cw5cjuht5bxy7" path="res://Sprites/exeggutor.png" id="71_wslbq"]
+[ext_resource type="Texture2D" uid="uid://phjrroqdbrox" path="res://Sprites/cubone.png" id="72_aj38l"]
+[ext_resource type="Texture2D" uid="uid://daqwl04h7wy8e" path="res://Sprites/marowak.png" id="73_7gu2r"]
+[ext_resource type="Texture2D" uid="uid://cj5dcahmwiuep" path="res://Sprites/koffing.png" id="74_cxyd4"]
+[ext_resource type="Texture2D" uid="uid://dkcl0cqtvb4us" path="res://Sprites/rhyhorn.png" id="75_d70jb"]
+[ext_resource type="Texture2D" uid="uid://bjaeq1xpsqxj2" path="res://Sprites/tangela.png" id="76_77gqn"]
+[ext_resource type="Texture2D" uid="uid://bij1frgvif0p4" path="res://Sprites/magikarp.png" id="77_1dt6a"]
+[ext_resource type="Texture2D" uid="uid://d3bkkdqont0dp" path="res://Sprites/lapras.png" id="78_p4t5g"]
+[ext_resource type="Texture2D" uid="uid://comqsuii8yfdj" path="res://Sprites/ditto.png" id="79_qdy24"]
+[ext_resource type="Texture2D" uid="uid://dg6y1q8ynb6jd" path="res://Sprites/eevee.png" id="80_7m4q1"]
+[ext_resource type="Texture2D" uid="uid://bjlk5rpp41udq" path="res://Sprites/flareon.png" id="81_sdjcm"]
+[ext_resource type="Texture2D" uid="uid://bj4tmir8d5ct" path="res://Sprites/omanyte.png" id="82_3chem"]
+[ext_resource type="Texture2D" uid="uid://quqwea5nejek" path="res://Sprites/aerodactyl.png" id="83_j2js7"]
+[ext_resource type="Texture2D" uid="uid://v8o6taydfwyg" path="res://BoxSprites/party.png" id="84_m8l2p"]
+[ext_resource type="Texture2D" uid="uid://br7erxo83u1dl" path="res://BoxSprites/box1.png" id="85_i2wxy"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Tracker" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 1024.0
+offset_bottom = 100.0
+theme_override_constants/separation = 0
+script = ExtResource("1_iraom")
+
+[node name="TrackerRow1" type="HBoxContainer" parent="Tracker"]
+custom_minimum_size = Vector2(32, 0)
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="Col1" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col1"]
+texture = ExtResource("1_4kgog")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col2" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col2"]
+texture = ExtResource("3_rier6")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col3" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col3"]
+texture = ExtResource("5_r60ue")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col4" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col4"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col4"]
+texture = ExtResource("2_ot706")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col5" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col5"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col5"]
+texture = ExtResource("4_okxf1")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col6" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col6"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col6"]
+texture = ExtResource("10_vlrhg")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col7" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col7"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col7"]
+texture = ExtResource("3_nxgqa")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col8" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col8"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col8"]
+texture = ExtResource("7_780uf")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col9" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col9"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col9"]
+texture = ExtResource("11_gj0ah")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col10" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col10"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col10"]
+texture = ExtResource("4_64o7q")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col11" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col11"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col11"]
+texture = ExtResource("8_wahe5")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col12" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col12"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col12"]
+texture = ExtResource("12_jxwps")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col13" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col13"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col13"]
+texture = ExtResource("5_sj2x7")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col14" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col14"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col14"]
+texture = ExtResource("11_pd26h")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col15" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col15"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col15"]
+texture = ExtResource("17_4kjm6")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col16" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col16"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col16"]
+texture = ExtResource("6_660et")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col17" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col17"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col17"]
+texture = ExtResource("12_ynhd6")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col18" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col18"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col18"]
+texture = ExtResource("18_2rouw")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col19" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col19"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col19"]
+texture = ExtResource("7_t66e6")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col20" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col20"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col20"]
+texture = ExtResource("18_37vua")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col21" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col21"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col21"]
+texture = ExtResource("8_fm4u4")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col22" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col22"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col22"]
+texture = ExtResource("19_528g0")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col23" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col23"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col23"]
+texture = ExtResource("30_kd028")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col24" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col24"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col24"]
+texture = ExtResource("9_dxu25")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col25" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col25"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col25"]
+texture = ExtResource("20_r7l1p")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col26" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col26"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col26"]
+texture = ExtResource("31_cnxrs")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col27" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col27"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col27"]
+texture = ExtResource("10_2fpto")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col28" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col28"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col28"]
+texture = ExtResource("21_5ej6l")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col29" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col29"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col29"]
+texture = ExtResource("32_e5pvm")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col30" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col30"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col30"]
+texture = ExtResource("11_5m3ki")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col31" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col31"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col31"]
+texture = ExtResource("22_3jeg7")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col32" type="BoxContainer" parent="Tracker/TrackerRow1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow1/Col32"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow1/Col32"]
+texture = ExtResource("33_5hho7")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="TrackerRow2" type="HBoxContainer" parent="Tracker"]
+custom_minimum_size = Vector2(32, 0)
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="Col1" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col1"]
+texture = ExtResource("33_8j72s")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col2" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col2"]
+texture = ExtResource("34_qklhg")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col3" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col3"]
+texture = ExtResource("35_rcktj")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col4" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col4"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col4"]
+texture = ExtResource("36_r7a06")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col5" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col5"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col5"]
+texture = ExtResource("37_o8bmr")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col6" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col6"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col6"]
+texture = ExtResource("38_t5sp6")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col7" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col7"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col7"]
+texture = ExtResource("39_2bp2v")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col8" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col8"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col8"]
+texture = ExtResource("29_wk446")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col9" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col9"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col9"]
+texture = ExtResource("41_kpo6v")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col10" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col10"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col10"]
+texture = ExtResource("42_wkhg5")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col11" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col11"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col11"]
+texture = ExtResource("43_h8l2e")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col12" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col12"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col12"]
+texture = ExtResource("44_tcu7p")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col13" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col13"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col13"]
+texture = ExtResource("45_f6sqw")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col14" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col14"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col14"]
+texture = ExtResource("46_tj0e0")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col15" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col15"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col15"]
+texture = ExtResource("47_y3ukw")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col16" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col16"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col16"]
+texture = ExtResource("48_j0t2o")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col17" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col17"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col17"]
+texture = ExtResource("49_qkqf3")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col18" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col18"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col18"]
+texture = ExtResource("50_oso2k")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col19" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col19"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col19"]
+texture = ExtResource("51_1g6x2")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col20" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col20"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col20"]
+texture = ExtResource("52_yum1v")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col21" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col21"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col21"]
+texture = ExtResource("53_206s3")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col22" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col22"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col22"]
+texture = ExtResource("54_3uw1s")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col23" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col23"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col23"]
+texture = ExtResource("55_b8lgv")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col24" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col24"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col24"]
+texture = ExtResource("56_874ct")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col25" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col25"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col25"]
+texture = ExtResource("57_v3s73")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col26" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col26"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col26"]
+texture = ExtResource("58_0toif")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col27" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col27"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col27"]
+texture = ExtResource("59_ggnod")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col28" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col28"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col28"]
+texture = ExtResource("60_4osg2")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col29" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col29"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col29"]
+texture = ExtResource("61_rbjs3")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col30" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col30"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col30"]
+texture = ExtResource("62_tgfw6")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col31" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col31"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col31"]
+texture = ExtResource("63_lyhrl")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col32" type="BoxContainer" parent="Tracker/TrackerRow2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow2/Col32"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow2/Col32"]
+texture = ExtResource("64_4hfsy")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="TrackerRow3" type="HBoxContainer" parent="Tracker"]
+custom_minimum_size = Vector2(32, 0)
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="Col1" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col1"]
+texture = ExtResource("65_5r1s4")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col2" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col2"]
+texture = ExtResource("66_31sgd")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col3" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col3"]
+texture = ExtResource("67_semci")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col4" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col4"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col4"]
+texture = ExtResource("68_opwa2")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col5" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col5"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col5"]
+texture = ExtResource("69_qvyv4")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col6" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col6"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col6"]
+texture = ExtResource("70_hfmq0")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col7" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col7"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col7"]
+texture = ExtResource("71_wslbq")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col8" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col8"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col8"]
+texture = ExtResource("72_aj38l")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col9" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col9"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col9"]
+texture = ExtResource("73_7gu2r")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col10" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col10"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col10"]
+texture = ExtResource("74_cxyd4")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col11" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col11"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col11"]
+texture = ExtResource("75_d70jb")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col12" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col12"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col12"]
+texture = ExtResource("76_77gqn")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col13" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col13"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col13"]
+texture = ExtResource("77_1dt6a")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col14" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col14"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col14"]
+texture = ExtResource("78_p4t5g")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col15" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col15"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col15"]
+texture = ExtResource("79_qdy24")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col16" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col16"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col16"]
+texture = ExtResource("80_7m4q1")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col17" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col17"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col17"]
+texture = ExtResource("81_sdjcm")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col18" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col18"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col18"]
+texture = ExtResource("82_3chem")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col19" type="BoxContainer" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="BG" type="ColorRect" parent="Tracker/TrackerRow3/Col19"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Tracker/TrackerRow3/Col19"]
+texture = ExtResource("83_j2js7")
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Spacer" type="Label" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+horizontal_alignment = 2
+
+[node name="Button" type="Button" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(65, 0)
+layout_mode = 2
+text = "Reset"
+
+[node name="Summary" type="Label" parent="Tracker/TrackerRow3"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+text = "CAUGHT: 0	   PLANNED: 0   TOTAL: 0"
+horizontal_alignment = 2
+
+[node name="Pokemon Area" type="Control" parent="."]
+anchors_preset = 0
+offset_top = 120.0
+offset_right = 40.0
+offset_bottom = 160.0
+scale = Vector2(2, 2)
+
+[node name="PartyBG" type="TextureRect" parent="Pokemon Area"]
+layout_mode = 0
+offset_right = 95.0
+offset_bottom = 160.0
+texture = ExtResource("84_m8l2p")
+expand_mode = 1
+
+[node name="Slot1" type="BoxContainer" parent="Pokemon Area/PartyBG"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 0
+offset_left = 8.0
+offset_top = 57.0
+offset_right = 40.0
+offset_bottom = 89.0
+scale = Vector2(0.875, 0.667)
+
+[node name="BG" type="ColorRect" parent="Pokemon Area/PartyBG/Slot1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/PartyBG/Slot1"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Slot2" type="BoxContainer" parent="Pokemon Area/PartyBG"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 0
+offset_left = 56.0
+offset_top = 9.0
+offset_right = 88.0
+offset_bottom = 41.0
+scale = Vector2(0.875, 0.667)
+
+[node name="BG" type="ColorRect" parent="Pokemon Area/PartyBG/Slot2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/PartyBG/Slot2"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Slot3" type="BoxContainer" parent="Pokemon Area/PartyBG"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 0
+offset_left = 56.0
+offset_top = 33.0
+offset_right = 88.0
+offset_bottom = 65.0
+scale = Vector2(0.875, 0.667)
+
+[node name="BG" type="ColorRect" parent="Pokemon Area/PartyBG/Slot3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/PartyBG/Slot3"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Slot4" type="BoxContainer" parent="Pokemon Area/PartyBG"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 0
+offset_left = 56.0
+offset_top = 57.0
+offset_right = 88.0
+offset_bottom = 89.0
+scale = Vector2(0.875, 0.667)
+
+[node name="BG" type="ColorRect" parent="Pokemon Area/PartyBG/Slot4"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/PartyBG/Slot4"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Slot5" type="BoxContainer" parent="Pokemon Area/PartyBG"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 0
+offset_left = 56.0
+offset_top = 81.0
+offset_right = 88.0
+offset_bottom = 113.0
+scale = Vector2(0.875, 0.667)
+
+[node name="BG" type="ColorRect" parent="Pokemon Area/PartyBG/Slot5"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/PartyBG/Slot5"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Slot6" type="BoxContainer" parent="Pokemon Area/PartyBG"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 0
+offset_left = 56.0
+offset_top = 105.0
+offset_right = 88.0
+offset_bottom = 137.0
+scale = Vector2(0.875, 0.667)
+
+[node name="BG" type="ColorRect" parent="Pokemon Area/PartyBG/Slot6"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+color = Color(0.72549, 0.72549, 0.72549, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/PartyBG/Slot6"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="BoxBG" type="TextureRect" parent="Pokemon Area"]
+layout_mode = 0
+offset_left = 100.0
+offset_right = 291.0
+offset_bottom = 160.0
+texture = ExtResource("85_i2wxy")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Pokemon Area/BoxBG"]
+custom_minimum_size = Vector2(176, 144)
+layout_mode = 0
+offset_left = 6.0
+offset_top = 16.0
+offset_right = 182.0
+offset_bottom = 160.0
+theme_override_constants/separation = -7
+
+[node name="Row1" type="HBoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = -3
+
+[node name="Col1" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row1/Col1"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col2" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row1/Col2"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col3" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row1/Col3"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col4" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row1/Col4"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col5" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row1/Col5"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col6" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row1"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row1/Col6"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Row2" type="HBoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = -3
+
+[node name="Col1" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row2/Col1"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col2" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row2/Col2"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col3" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row2/Col3"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col4" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row2/Col4"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col5" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row2/Col5"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col6" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row2"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row2/Col6"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Row3" type="HBoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = -3
+
+[node name="Col1" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row3/Col1"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col2" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row3/Col2"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col3" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row3/Col3"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col4" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row3/Col4"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col5" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row3/Col5"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col6" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row3"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row3/Col6"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Row4" type="HBoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = -3
+
+[node name="Col1" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row4"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row4/Col1"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col2" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row4"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row4/Col2"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col3" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row4"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row4/Col3"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col4" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row4"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row4/Col4"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col5" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row4"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row4/Col5"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col6" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row4"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row4/Col6"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Row5" type="HBoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = -3
+
+[node name="Col1" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row5"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row5/Col1"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col2" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row5"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row5/Col2"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col3" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row5"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row5/Col3"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col4" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row5"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row5/Col4"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col5" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row5"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row5/Col5"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Col6" type="BoxContainer" parent="Pokemon Area/BoxBG/VBoxContainer/Row5"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="Sprite" type="Sprite2D" parent="Pokemon Area/BoxBG/VBoxContainer/Row5/Col6"]
+centered = false
+region_rect = Rect2(855, 20, 30, 25)
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 291.0
+offset_right = 95.0
+offset_bottom = 322.0
+text = "Cerulean"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 329.0
+offset_right = 94.0
+offset_bottom = 360.0
+text = "Sevii"
+
+[node name="Button3" type="Button" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 367.0
+offset_right = 94.0
+offset_bottom = 398.0
+text = "Silph"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+offset_left = 889.0
+offset_top = 181.0
+offset_right = 951.0
+offset_bottom = 207.0
+text = "Candies"
+horizontal_alignment = 1
+
+[node name="Candy Area" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 846.0
+offset_top = 164.0
+offset_right = 966.0
+offset_bottom = 349.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Candy Area"]
+layout_mode = 0
+offset_top = 50.0
+offset_right = 308.0
+offset_bottom = 90.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Candy Area/HBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="OptionButton" type="OptionButton" parent="Candy Area/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+item_count = 14
+popup/item_0/text = "Pidgeotto"
+popup/item_0/icon = ExtResource("8_wahe5")
+popup/item_0/id = 0
+popup/item_1/text = "NidoM"
+popup/item_1/icon = ExtResource("9_dxu25")
+popup/item_1/id = 1
+popup/item_2/text = "NidoF"
+popup/item_2/icon = ExtResource("8_fm4u4")
+popup/item_2/id = 2
+popup/item_3/text = "Seel"
+popup/item_3/icon = ExtResource("61_rbjs3")
+popup/item_3/id = 3
+popup/item_4/text = "Paras"
+popup/item_4/icon = ExtResource("36_r7a06")
+popup/item_4/id = 4
+popup/item_5/text = "Meowth"
+popup/item_5/icon = ExtResource("41_kpo6v")
+popup/item_5/id = 5
+popup/item_6/text = "Psyduck"
+popup/item_6/icon = ExtResource("43_h8l2e")
+popup/item_6/id = 6
+popup/item_7/text = "Tentacool"
+popup/item_7/icon = ExtResource("52_yum1v")
+popup/item_7/id = 7
+popup/item_8/text = "Ekans"
+popup/item_8/icon = ExtResource("12_ynhd6")
+popup/item_8/id = 8
+popup/item_9/text = "Mankey"
+popup/item_9/icon = ExtResource("45_f6sqw")
+popup/item_9/id = 9
+popup/item_10/text = "Zubat"
+popup/item_10/icon = ExtResource("22_3jeg7")
+popup/item_10/id = 10
+popup/item_11/text = "Geodude"
+popup/item_11/icon = ExtResource("54_3uw1s")
+popup/item_11/id = 11
+popup/item_12/text = "Machop"
+popup/item_12/icon = ExtResource("50_oso2k")
+popup/item_12/id = 12
+popup/item_13/text = "Oddish"
+popup/item_13/icon = ExtResource("33_8j72s")
+popup/item_13/id = 13
+
+[node name="OptionButton2" type="OptionButton" parent="Candy Area/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+item_count = 14
+popup/item_0/text = "Pidgeotto"
+popup/item_0/icon = ExtResource("8_wahe5")
+popup/item_0/id = 0
+popup/item_1/text = "NidoM"
+popup/item_1/icon = ExtResource("9_dxu25")
+popup/item_1/id = 1
+popup/item_2/text = "NidoF"
+popup/item_2/icon = ExtResource("8_fm4u4")
+popup/item_2/id = 2
+popup/item_3/text = "Seel"
+popup/item_3/icon = ExtResource("61_rbjs3")
+popup/item_3/id = 3
+popup/item_4/text = "Paras"
+popup/item_4/icon = ExtResource("36_r7a06")
+popup/item_4/id = 4
+popup/item_5/text = "Meowth"
+popup/item_5/icon = ExtResource("41_kpo6v")
+popup/item_5/id = 5
+popup/item_6/text = "Psyduck"
+popup/item_6/icon = ExtResource("43_h8l2e")
+popup/item_6/id = 6
+popup/item_7/text = "Tentacool"
+popup/item_7/icon = ExtResource("52_yum1v")
+popup/item_7/id = 7
+popup/item_8/text = "Ekans"
+popup/item_8/icon = ExtResource("12_ynhd6")
+popup/item_8/id = 8
+popup/item_9/text = "Mankey"
+popup/item_9/icon = ExtResource("45_f6sqw")
+popup/item_9/id = 9
+popup/item_10/text = "Zubat"
+popup/item_10/icon = ExtResource("22_3jeg7")
+popup/item_10/id = 10
+popup/item_11/text = "Geodude"
+popup/item_11/icon = ExtResource("54_3uw1s")
+popup/item_11/id = 11
+popup/item_12/text = "Machop"
+popup/item_12/icon = ExtResource("50_oso2k")
+popup/item_12/id = 12
+popup/item_13/text = "Oddish"
+popup/item_13/icon = ExtResource("33_8j72s")
+popup/item_13/id = 13
+
+[node name="OptionButton3" type="OptionButton" parent="Candy Area/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+item_count = 14
+popup/item_0/text = "Pidgeotto"
+popup/item_0/icon = ExtResource("8_wahe5")
+popup/item_0/id = 0
+popup/item_1/text = "NidoM"
+popup/item_1/icon = ExtResource("9_dxu25")
+popup/item_1/id = 1
+popup/item_2/text = "NidoF"
+popup/item_2/icon = ExtResource("8_fm4u4")
+popup/item_2/id = 2
+popup/item_3/text = "Seel"
+popup/item_3/icon = ExtResource("61_rbjs3")
+popup/item_3/id = 3
+popup/item_4/text = "Paras"
+popup/item_4/icon = ExtResource("36_r7a06")
+popup/item_4/id = 4
+popup/item_5/text = "Meowth"
+popup/item_5/icon = ExtResource("41_kpo6v")
+popup/item_5/id = 5
+popup/item_6/text = "Psyduck"
+popup/item_6/icon = ExtResource("43_h8l2e")
+popup/item_6/id = 6
+popup/item_7/text = "Tentacool"
+popup/item_7/icon = ExtResource("52_yum1v")
+popup/item_7/id = 7
+popup/item_8/text = "Ekans"
+popup/item_8/icon = ExtResource("12_ynhd6")
+popup/item_8/id = 8
+popup/item_9/text = "Mankey"
+popup/item_9/icon = ExtResource("45_f6sqw")
+popup/item_9/id = 9
+popup/item_10/text = "Zubat"
+popup/item_10/icon = ExtResource("22_3jeg7")
+popup/item_10/id = 10
+popup/item_11/text = "Geodude"
+popup/item_11/icon = ExtResource("54_3uw1s")
+popup/item_11/id = 11
+popup/item_12/text = "Machop"
+popup/item_12/icon = ExtResource("50_oso2k")
+popup/item_12/id = 12
+popup/item_13/text = "Oddish"
+popup/item_13/icon = ExtResource("33_8j72s")
+popup/item_13/id = 13
+
+[node name="OptionButton4" type="OptionButton" parent="Candy Area/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+item_count = 14
+popup/item_0/text = "Pidgeotto"
+popup/item_0/icon = ExtResource("8_wahe5")
+popup/item_0/id = 0
+popup/item_1/text = "NidoM"
+popup/item_1/icon = ExtResource("9_dxu25")
+popup/item_1/id = 1
+popup/item_2/text = "NidoF"
+popup/item_2/icon = ExtResource("8_fm4u4")
+popup/item_2/id = 2
+popup/item_3/text = "Seel"
+popup/item_3/icon = ExtResource("61_rbjs3")
+popup/item_3/id = 3
+popup/item_4/text = "Paras"
+popup/item_4/icon = ExtResource("36_r7a06")
+popup/item_4/id = 4
+popup/item_5/text = "Meowth"
+popup/item_5/icon = ExtResource("41_kpo6v")
+popup/item_5/id = 5
+popup/item_6/text = "Psyduck"
+popup/item_6/icon = ExtResource("43_h8l2e")
+popup/item_6/id = 6
+popup/item_7/text = "Tentacool"
+popup/item_7/icon = ExtResource("52_yum1v")
+popup/item_7/id = 7
+popup/item_8/text = "Ekans"
+popup/item_8/icon = ExtResource("12_ynhd6")
+popup/item_8/id = 8
+popup/item_9/text = "Mankey"
+popup/item_9/icon = ExtResource("45_f6sqw")
+popup/item_9/id = 9
+popup/item_10/text = "Zubat"
+popup/item_10/icon = ExtResource("22_3jeg7")
+popup/item_10/id = 10
+popup/item_11/text = "Geodude"
+popup/item_11/icon = ExtResource("54_3uw1s")
+popup/item_11/id = 11
+popup/item_12/text = "Machop"
+popup/item_12/icon = ExtResource("50_oso2k")
+popup/item_12/id = 12
+popup/item_13/text = "Oddish"
+popup/item_13/icon = ExtResource("33_8j72s")
+popup/item_13/id = 13
+
+[node name="OptionButton5" type="OptionButton" parent="Candy Area/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+item_count = 14
+popup/item_0/text = "Pidgeotto"
+popup/item_0/icon = ExtResource("8_wahe5")
+popup/item_0/id = 0
+popup/item_1/text = "NidoM"
+popup/item_1/icon = ExtResource("9_dxu25")
+popup/item_1/id = 1
+popup/item_2/text = "NidoF"
+popup/item_2/icon = ExtResource("8_fm4u4")
+popup/item_2/id = 2
+popup/item_3/text = "Seel"
+popup/item_3/icon = ExtResource("61_rbjs3")
+popup/item_3/id = 3
+popup/item_4/text = "Paras"
+popup/item_4/icon = ExtResource("36_r7a06")
+popup/item_4/id = 4
+popup/item_5/text = "Meowth"
+popup/item_5/icon = ExtResource("41_kpo6v")
+popup/item_5/id = 5
+popup/item_6/text = "Psyduck"
+popup/item_6/icon = ExtResource("43_h8l2e")
+popup/item_6/id = 6
+popup/item_7/text = "Tentacool"
+popup/item_7/icon = ExtResource("52_yum1v")
+popup/item_7/id = 7
+popup/item_8/text = "Ekans"
+popup/item_8/icon = ExtResource("12_ynhd6")
+popup/item_8/id = 8
+popup/item_9/text = "Mankey"
+popup/item_9/icon = ExtResource("45_f6sqw")
+popup/item_9/id = 9
+popup/item_10/text = "Zubat"
+popup/item_10/icon = ExtResource("22_3jeg7")
+popup/item_10/id = 10
+popup/item_11/text = "Geodude"
+popup/item_11/icon = ExtResource("54_3uw1s")
+popup/item_11/id = 11
+popup/item_12/text = "Machop"
+popup/item_12/icon = ExtResource("50_oso2k")
+popup/item_12/id = 12
+popup/item_13/text = "Oddish"
+popup/item_13/icon = ExtResource("33_8j72s")
+popup/item_13/id = 13
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 2
+offset_left = 884.0
+offset_top = 117.0
+offset_right = 957.0
+offset_bottom = 143.0
+text = "Squirtles:"
+horizontal_alignment = 1
+
+[node name="Label" type="Label" parent="Label2"]
+layout_mode = 0
+offset_left = 16.5
+offset_top = 26.0
+offset_right = 56.5
+offset_bottom = 52.0
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="Label2"]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 26.0
+offset_right = 78.0
+offset_bottom = 57.0
+text = "+"
+
+[node name="Button2" type="Button" parent="Label2"]
+layout_mode = 0
+offset_left = -5.0
+offset_top = 26.0
+offset_right = 13.0
+offset_bottom = 57.0
+text = "-"
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 2
+offset_left = 708.0
+offset_top = 147.0
+offset_right = 787.0
+offset_bottom = 173.0
+text = "Projection"
+horizontal_alignment = 1
+
+[node name="OptionButton" type="OptionButton" parent="Label3"]
+layout_mode = 0
+offset_left = -17.5
+offset_top = 35.0
+offset_right = 96.5
+offset_bottom = 60.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 12
+item_count = 13
+popup/item_0/text = "Brock"
+popup/item_0/id = 0
+popup/item_1/text = "Misty"
+popup/item_1/id = 1
+popup/item_2/text = "Bill"
+popup/item_2/id = 2
+popup/item_3/text = "Bike"
+popup/item_3/id = 3
+popup/item_4/text = "Rock Tunnel"
+popup/item_4/id = 4
+popup/item_5/text = "Gio 1"
+popup/item_5/id = 5
+popup/item_6/text = "Snorlax"
+popup/item_6/id = 6
+popup/item_7/text = "Koga"
+popup/item_7/id = 7
+popup/item_8/text = "Blaine"
+popup/item_8/id = 8
+popup/item_9/text = "Sevii"
+popup/item_9/id = 9
+popup/item_10/text = "Sabrina"
+popup/item_10/id = 10
+popup/item_11/text = "Erika"
+popup/item_11/id = 11
+popup/item_12/text = "Gio 3"
+popup/item_12/id = 12
+
+[node name="LineEdit" type="LineEdit" parent="Label3"]
+layout_mode = 0
+offset_left = -10.0
+offset_top = 71.0
+offset_right = 89.0
+offset_bottom = 102.0
+placeholder_text = "Minutes"
+alignment = 1
+
+[node name="LineEdit2" type="LineEdit" parent="Label3"]
+layout_mode = 0
+offset_left = -10.0
+offset_top = 106.0
+offset_right = 89.0
+offset_bottom = 137.0
+placeholder_text = "Seconds"
+alignment = 1
+
+[node name="LineEdit3" type="LineEdit" parent="Label3"]
+layout_mode = 0
+offset_left = -10.0
+offset_top = 141.0
+offset_right = 89.0
+offset_bottom = 172.0
+placeholder_text = "Caught"
+alignment = 1
+
+[node name="LineEdit4" type="LineEdit" parent="Label3"]
+layout_mode = 0
+offset_left = -10.0
+offset_top = 176.0
+offset_right = 89.0
+offset_bottom = 207.0
+placeholder_text = "Planned"
+alignment = 1
+
+[node name="Projection" type="Button" parent="Label3"]
+layout_mode = 0
+offset_left = -10.5
+offset_top = 224.0
+offset_right = 89.5
+offset_bottom = 276.0
+text = "Projection"
+
+[connection signal="pressed" from="Tracker/TrackerRow3/Button" to="Tracker" method="reset_tracker"]
+[connection signal="pressed" from="Button" to="Tracker" method="cerulean_deposit"]
+[connection signal="pressed" from="Button2" to="Tracker" method="sevii_deposit"]
+[connection signal="pressed" from="Button3" to="Tracker" method="silph_deposit"]
+[connection signal="item_selected" from="Candy Area/HBoxContainer/VBoxContainer/OptionButton" to="Tracker" method="select_candymon"]
+[connection signal="item_selected" from="Candy Area/HBoxContainer/VBoxContainer/OptionButton2" to="Tracker" method="select_candymon"]
+[connection signal="item_selected" from="Candy Area/HBoxContainer/VBoxContainer/OptionButton3" to="Tracker" method="select_candymon"]
+[connection signal="item_selected" from="Candy Area/HBoxContainer/VBoxContainer/OptionButton4" to="Tracker" method="select_candymon"]
+[connection signal="item_selected" from="Candy Area/HBoxContainer/VBoxContainer/OptionButton5" to="Tracker" method="select_candymon"]
+[connection signal="pressed" from="Label2/Button" to="Tracker" method="add_squirtle"]
+[connection signal="pressed" from="Label2/Button2" to="Tracker" method="minus_squirtle"]
+[connection signal="pressed" from="Label3/Projection" to="Tracker" method="project_time"]
